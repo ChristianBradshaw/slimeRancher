@@ -1,13 +1,34 @@
 body {
   font-family: 'Amatic SC', cursive;
-  font-weight: 7000;
   background: #6ee0b0;
+}
+
+.container{
+  max-width: 800px;
 }
 
 .headerBG{
   background: url('/resources/img/cloudBG.png') no-repeat;
-  height: 100vh;
-  background-size: co
+  height: 50vh;
+}
+
+h1{
+  font-size: 50px;
+  line-height: 70px;
+  text-shadow: 1px 1px 5px #888;
+  color: white;
+}
+
+.merchIcon{
+  width: 200px;
+}
+
+.textPortion{
+  background: url('/resources/img/textBG.png') no-repeat;
+  background-position: center;
+  font-size: 26px;
+  line-height: 33.8px;
+  font-weight: bold;
 }
 
 
