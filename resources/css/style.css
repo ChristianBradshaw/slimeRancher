@@ -3,6 +3,14 @@ body {
   background: #6ee0b0;
 }
 
+section{
+  padding: 30px 0;
+}
+
+.ctaButtons{
+  padding: 30px 0 15px;
+}
+
 .container{
   max-width: 800px;
 }
@@ -10,6 +18,19 @@ body {
 .headerBG{
   background: url('/resources/img/cloudBG.png') no-repeat;
   height: 50vh;
+}
+
+.mainLogo{
+  margin-bottom: -70px
+}
+
+.callToAction{
+  margin-top: -150px
+}
+
+.callToAction .btn{
+  font-size: 25px;
+  min-width: 230px;
 }
 
 h1,h2{
@@ -24,18 +45,34 @@ h1{
 
 .merchIcon{
   width: 200px;
+  position: relative;
+}
+
+.merchText{
+  font-weight: 700;
 }
 
 .textPortion{
   background: url('/resources/img/textBG.png') no-repeat;
   background-position: center;
-  font-size: 26px;
+  font-size: 25px;
+  line-height: 33.8px;
+  font-weight: bold;
+}
+
+.textPortion h3{
+  font-size: 40px;
   line-height: 33.8px;
   font-weight: bold;
 }
 
 .desktop img{
   width: 100%;
+}
+
+.social-icons{
+  margin-right: -100px;
+  margin-left: -150px;
 }
 
 footer p{
