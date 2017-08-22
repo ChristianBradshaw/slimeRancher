@@ -64,6 +64,11 @@ h1{
   font-weight: bold;
 }
 
+.newsletter{
+  background-color: #61c79c;
+  border: solid 2px #222222;
+}
+
 .textPortion h3{
   font-size: 40px;
   line-height: 33.8px;
