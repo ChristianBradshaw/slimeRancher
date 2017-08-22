@@ -52,6 +52,10 @@ h1{
   font-weight: 700;
 }
 
+.social-icons{
+  padding: 0 250px;
+}
+
 .textPortion{
   background: url('/resources/img/textBG.png') no-repeat;
   background-position: center;
@@ -68,11 +72,6 @@ h1{
 
 .desktop img{
   width: 100%;
-}
-
-.social-icons{
-  margin-right: -100px;
-  margin-left: -150px;
 }
 
 footer p{
